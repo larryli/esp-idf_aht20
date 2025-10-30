@@ -42,5 +42,5 @@ aht20_init(bus_handle, &aht20_config, &aht20_handle);
 ```c
 float temperature, humidity;
 
-aht20_get_temperature_humidity(aht20_handle, NULL, &temperature, NULL, &humidity);
+aht20_get_temperature_humidity(aht20_handle, &temperature, &humidity);
 ```
