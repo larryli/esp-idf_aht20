@@ -1,0 +1,6 @@
+description: 'Get started for AHT20 temperature and humidity driver'
+dependencies:
+  idf: '>=5.2'
+  larryli/aht20:
+    version: '*'
+    override_path: '../../../'

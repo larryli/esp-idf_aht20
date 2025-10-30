@@ -1,0 +1,6 @@
+description: AHT20 temperature and humidity sensor driver component
+url: https://github.com/larryli/esp-idf_aht20
+repository: https://github.com/larryli/esp-idf_aht20.git
+license: 'MIT'
+dependencies:
+  idf: '>=5.2'
